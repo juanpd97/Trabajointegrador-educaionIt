@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+}
+
+main {
+  background-color: yellowgreen;
+}
+
+#destacados img {
+  max-width: 250px;
+  max-height: 250px;
+  margin: 15px;
+}
+
+footer {
+  background-color: chartreuse;
+  height: 100px;
+}
+
+/*# sourceMappingURL=styles.css.map */
