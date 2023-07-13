@@ -196,16 +196,69 @@ footer{//no funciona bien cuando le doy a inspeccionar
 #main-turnos{
     color: white;
     text-align: center;
+    height: 88vh;
     h1{
-        padding: 200px;
+        padding: 40vh;
     }
 }
 
 
 // ------------------------pagina quienes somos -------------
+//no es responsive(?
 
 #main-quienesSomos{
+    padding: 75px;
+    color: white;
+    text-align: center;
+    h1{
+        padding: 30px;
+        background-color: cadetblue;
+        border-radius: 25px;
+    }
 
+
+    a:hover {
+        background-color: rgb(73, 73, 73);
+        border-radius: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+    ul {
+        width: 100%; 
+        margin: 0 auto; 
+        display: flex;
+        justify-content: center;
+        li {
+            display: inline-block;
+            padding: 10px 15px;
+
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 25px;
+            }
+        }
+      }
+
+      section{
+        min-height: 40vh;
+        margin: 75px;
+        border: 3px solid rgb(255, 255, 255);
+
+        h2{
+            background-color: darkcyan;
+            padding: 13px;
+        }
+
+        p{
+             font-size: 25px;
+            // display: flex;
+            // align-items: center;
+            margin-top: 50px;
+            padding: 15px;
+        }
+      }
 }
 
 // -------------------------- pagina contactos ----------------
@@ -215,6 +268,7 @@ footer{//no funciona bien cuando le doy a inspeccionar
     color: white;
     text-align: center;
     padding-bottom: 60px;
+    
     h1{
         margin: 75px;
         padding: 25px;
@@ -233,6 +287,9 @@ footer{//no funciona bien cuando le doy a inspeccionar
             padding:10px;
             color: white;
         }
+        }
+        input{
+            color: white;
         }
         textarea{
             color: white;

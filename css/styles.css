@@ -136,9 +136,56 @@ footer i {
 #main-turnos {
   color: white;
   text-align: center;
+  height: 88vh;
 }
 #main-turnos h1 {
-  padding: 200px;
+  padding: 40vh;
+}
+
+#main-quienesSomos {
+  padding: 75px;
+  color: white;
+  text-align: center;
+}
+#main-quienesSomos h1 {
+  padding: 30px;
+  background-color: cadetblue;
+  border-radius: 25px;
+}
+#main-quienesSomos a:hover {
+  background-color: rgb(73, 73, 73);
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#main-quienesSomos ul {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+#main-quienesSomos ul li {
+  display: inline-block;
+  padding: 10px 15px;
+}
+#main-quienesSomos ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+#main-quienesSomos section {
+  min-height: 40vh;
+  margin: 75px;
+  border: 3px solid rgb(255, 255, 255);
+}
+#main-quienesSomos section h2 {
+  background-color: darkcyan;
+  padding: 13px;
+}
+#main-quienesSomos section p {
+  font-size: 25px;
+  margin-top: 50px;
+  padding: 15px;
 }
 
 #main-contactos {
@@ -161,6 +208,9 @@ footer i {
 #main-contactos form div span {
   background-color: #3b5769;
   padding: 10px;
+  color: white;
+}
+#main-contactos form input {
   color: white;
 }
 #main-contactos form textarea {
