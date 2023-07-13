@@ -1,70 +1,112 @@
-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999; /* Ajusta el valor del índice z si es necesario */
+// --------------------- estilos comunes -------------------------
+*{
+    background-color: black;
+}
 
-    background-color: rgb(0, 0, 0);
-    padding-top: 20px;
-    a:hover {
-        background-color: rgb(73, 73, 73);
-        border-radius: 20px;
-        padding: 5px;
-      }
-
-    a{
-        text-decoration: none;
-        h1{
-            color: white;
-        }
-        img{
-            max-width: 75px;
-        }
-    }
-
-    .menu {
-      font-size: 18pt;
-      ul {
-        width: 100%; 
-        margin: 0 auto; 
-        display: flex;
-        justify-content: center;
+header{
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+    
+        background-color: rgb(0, 0, 0);
         
-        li {
-            display: inline-block;
-            padding: 10px 15px;
-
-            a{
+        a:hover {
+            background-color: rgb(73, 73, 73);
+            border-radius: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            color: rgb(212, 107, 128);
+          }
+    
+        a{
+            text-decoration: none;
+            h1{
                 color: white;
-                text-decoration: none;
+            }
+            img{
+                max-width: 75px;
             }
         }
-      }
-    }
-    .MiCine{
-        color: white;
+    
+          font-size: 18pt;
+          ul {
+            width: 100%; 
+            margin: 0 auto; 
+            display: flex;
+            justify-content: center;
+            
+            li {
+                display: inline-block;
+                padding: 10px 15px;
+    
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+          }
+        
+        .MiCine{
+            color: white;
+        }
     }
 }
-  
 
-main{
-    margin-top: 95px;
+footer{//no funciona bien cuando le doy a inspeccionar
+
+    padding: 30px;
+
+    .footer-lineas {
+        border: none;
+        height: 7px;
+        background-color: #ffffff;
+      }
+
+    i{
+        font-size: 30px;
+        color: #ffffff;
+        margin-left: 90px;
+    }
+
+}
+
+// ------------------------- index ----------------------
+
+#main-index{
+    // margin-top: 75px;
     background-color: black;
     color: white;
+    text-align: center;
+
+    .imgLogo{
+        margin-top: 100px;
+        margin-bottom: 25px;
+        img{
+            max-width: 100px;
+        }
+        
+        h1{
+            font-size: 100px;
+        }
+    }
+
     
     #destacados{
-        // background-image: url(/img/fondo-3.png);
-        // background-repeat: no-repeat; 
-        // background-size: cover;
-        // background-color: rgb(7, 6, 33);
-        height: 100vh;
+         background-image: url(/img/fondo-3.png);
+         background-repeat: no-repeat; 
+         background-size: cover;
+         height: 100vh;
 
         h2{
             margin: 40px;
             font-size: 100px;
+            border-radius: 20px;
+            background-color: grey;
         }
         img{
-            margin: 15px;
+            margin: 25px;
             max-width: 200px;
             max-height: 300px;
         }
@@ -75,7 +117,52 @@ main{
 
 
 
-footer{
-    background-color: rgb(42, 42, 42);
-    height: 100px;
+
+// ----------------- pagina productos-------------------------
+
+#main-productos{
+    text-align: center;
+    padding: 75px;
+    color: white;
+
+    h1{
+        margin-top: 25px;
+        font-size: 75px;
+        border-radius: 25px;
+        background-color: cadetblue;
+    }
+
+    .productos{
+        
+        margin: 50px;
+        
+        img{
+            max-width:175px;
+            max-height: 175px;
+        }
+
+        h2{
+            margin: 50px;
+            border-radius: 25px;
+            background-color: rgb(54, 97, 106);
+        }
+        
+        .comida{
+            
+            // div{
+            // background-color: rgb(13, 65, 66);
+            // }
+            // img{
+            //     background-color: rgb(13, 65, 66);
+            // }
+        }
+    }
+
+
+
+
+
+
+
+
 }
