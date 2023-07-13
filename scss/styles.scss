@@ -192,3 +192,53 @@ footer{//no funciona bien cuando le doy a inspeccionar
 }
 
 
+// ---------------------- pagina turnos --------------------
+#main-turnos{
+    color: white;
+    text-align: center;
+    h1{
+        padding: 200px;
+    }
+}
+
+
+// ------------------------pagina quienes somos -------------
+
+#main-quienesSomos{
+
+}
+
+// -------------------------- pagina contactos ----------------
+
+#main-contactos{
+
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+    h1{
+        margin: 75px;
+        padding: 25px;
+        background-color: cadetblue;
+        border-radius: 25px;
+    }
+
+    form{
+        div{
+        font-size: 25px;
+        background-color: #3b5769;
+        padding:10px;
+        border-radius: 55px;
+        span{
+            background-color: #3b5769;
+            padding:10px;
+            color: white;
+        }
+        }
+        textarea{
+            color: white;
+            height: 200px;
+            width: 500px;
+        }
+    }
+}
+

@@ -133,4 +133,40 @@ footer i {
   border-style: dotted;
 }
 
+#main-turnos {
+  color: white;
+  text-align: center;
+}
+#main-turnos h1 {
+  padding: 200px;
+}
+
+#main-contactos {
+  color: white;
+  text-align: center;
+  padding-bottom: 60px;
+}
+#main-contactos h1 {
+  margin: 75px;
+  padding: 25px;
+  background-color: cadetblue;
+  border-radius: 25px;
+}
+#main-contactos form div {
+  font-size: 25px;
+  background-color: #3b5769;
+  padding: 10px;
+  border-radius: 55px;
+}
+#main-contactos form div span {
+  background-color: #3b5769;
+  padding: 10px;
+  color: white;
+}
+#main-contactos form textarea {
+  color: white;
+  height: 200px;
+  width: 500px;
+}
+
 /*# sourceMappingURL=styles.css.map */
