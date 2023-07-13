@@ -114,5 +114,23 @@ footer i {
   border-radius: 25px;
   background-color: rgb(54, 97, 106);
 }
+#main-noticias {
+  padding: 75px;
+  color: white;
+  text-align: center;
+}
+#main-noticias h1 {
+  margin: 30px;
+  background-color: cadetblue;
+  border-radius: 25px;
+}
+#main-noticias img {
+  max-width: 250px;
+}
+#main-noticias article {
+  margin: 75px;
+  border-color: azure;
+  border-style: dotted;
+}
 
 /*# sourceMappingURL=styles.css.map */

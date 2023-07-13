@@ -166,3 +166,29 @@ footer{//no funciona bien cuando le doy a inspeccionar
 
 
 }
+
+// --------------------- pagina noticias ---------------------
+
+#main-noticias{
+    padding: 75px;
+    color: white;
+    text-align: center;
+
+    h1{
+        margin: 30px;
+        background-color: cadetblue;
+        border-radius: 25px;
+    }
+
+    img{
+        max-width: 250px;
+    }
+
+    article{
+        margin:75px;
+        border-color: azure;
+        border-style: dotted;
+    }
+}
+
+
